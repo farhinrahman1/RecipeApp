@@ -10,11 +10,11 @@ export default function RecipeDetailsItems({getRecipeDetails}) {
                         <img
                             src={getRecipeDetails?.image}
                             name={getRecipeDetails?.name}
-                            className="w-4/5 rounded object-cover" />
-
+                            className="w-4/5 rounded object-cover"
+                        />
                     </div>
                 </div>
             </div>
         </div>
     )
-}
+} 
